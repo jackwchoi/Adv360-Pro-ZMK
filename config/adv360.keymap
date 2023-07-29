@@ -59,11 +59,11 @@
 
         layer_MEDIA {
             bindings = <
- &trans  &kp C_BRI_DN  &kp C_BRI_UP  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans        &trans        &trans    &bl BL_DEC       &bl BL_INC  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans        &trans        &trans        &trans           &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans        &trans        &trans        &trans           &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans        &trans        &trans        &trans           &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &kp F1  &kp F2  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans    &bl BL_DEC       &bl BL_INC  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans        &trans           &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans        &trans           &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans        &trans           &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
