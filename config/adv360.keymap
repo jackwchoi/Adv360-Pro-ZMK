@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-    &kp EQUAL            &kp N1     &kp N2      &kp N3     &kp N4  &kp N5                &mo 1                                                                                      &none  &kp N6  &kp N7    &kp N8    &kp N9    &kp N0      &kp MINUS
-      &kp TAB  &kp SINGLE_QUOTE  &kp COMMA  &kp PERIOD      &kp P   &kp Y                &none                                                                                      &none   &kp F   &kp G     &kp C     &kp R     &kp L      &kp SLASH
- &kp CAPSLOCK             &kp A      &kp O       &kp E      &kp U   &kp I                &none  &kp LCTRL             &mo 2                              &mo 2   &kp RCTRL          &none   &kp D   &kp H     &kp T     &kp N     &kp S  &kp BACKSLASH
-    &kp LSHFT     &kp SEMICOLON      &kp Q       &kp J      &kp K   &kp X                &none      &none      &kp LEFT_ALT   &none   &none           &kp RALT       &none          &none   &kp B   &kp M     &kp W     &kp V     &kp Z      &kp RSHFT
-        &none         &kp GRAVE      &none    &kp LEFT  &kp RIGHT                    &kp SPACE  &kp ENTER  &kp LEFT_COMMAND                  &kp RIGHT_COMMAND  &kp ESCAPE  &kp BACKSPACE          &kp UP  &kp DOWN  &kp LBKT  &kp RBKT          &none
+              &kp EQUAL            &kp N1     &kp N2      &kp N3     &kp N4  &kp N5                &mo 1                                                                                      &none  &kp N6  &kp N7    &kp N8    &kp N9    &kp N0      &kp MINUS
+                &kp TAB  &kp SINGLE_QUOTE  &kp COMMA  &kp PERIOD      &kp P   &kp Y                &none                                                                                      &none   &kp F   &kp G     &kp C     &kp R     &kp L      &kp SLASH
+           &kp CAPSLOCK             &kp A      &kp O       &kp E      &kp U   &kp I                &none  &kp LCTRL             &mo 2                              &mo 2   &kp RCTRL          &none   &kp D   &kp H     &kp T     &kp N     &kp S  &kp BACKSLASH
+              &kp LSHFT     &kp SEMICOLON      &kp Q       &kp J      &kp K   &kp X                &none      &none      &kp LEFT_ALT   &none   &none           &kp RALT       &none          &none   &kp B   &kp M     &kp W     &kp V     &kp Z      &kp RSHFT
+ &macro_ms-teams-unmute         &kp GRAVE      &none    &kp LEFT  &kp RIGHT                    &kp SPACE  &kp ENTER  &kp LEFT_COMMAND                  &kp RIGHT_COMMAND  &kp ESCAPE  &kp BACKSPACE          &kp UP  &kp DOWN  &kp LBKT  &kp RBKT          &none
             >;
         };
 
@@ -59,8 +59,8 @@
 
         layer_MEDIA {
             bindings = <
- &trans  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_BRI_DN  &kp C_BRI_UP  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans    &bl BL_DEC    &bl BL_INC        &kp F1        &kp F2  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans    &bl BL_DEC    &bl BL_INC  &kp C_BRI_DN  &kp C_BRI_UP  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp C_VOL_DN  &kp C_VOL_UP        &kp F1        &kp F2  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans        &trans        &trans        &trans        &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans        &trans        &trans        &trans        &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans        &trans        &trans        &trans        &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
